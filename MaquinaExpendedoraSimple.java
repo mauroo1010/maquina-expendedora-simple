@@ -36,6 +36,9 @@ public class MaquinaExpendedoraSimple {
     public void setPrecioBillete(int precioDelBillete) {
         precioBillete = precioDelBillete;
     }
+    public void reducirPrecioBillete(int reduccionDelBillete) { 
+        precioBillete = precioBillete - reduccionDelBillete;
+    }    
 
     /**
      * Devuelve el precio del billete
