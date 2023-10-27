@@ -24,11 +24,11 @@ public class MaquinaExpendedoraSimple {
         estacionDestino = "Pamplona";
     }
     public MaquinaExpendedoraSimple(int precioDelBillete, String destino){
-        precioBillete = 20;
+        precioBillete = precioDelBillete;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "Leon";
-        estacionDestino = "Salamanca";
+        estacionDestino = destino;
     }
 
     /**
